@@ -24,7 +24,7 @@ key  | default value  | env
 from configurations import Configuration
 from django_configurations_installed_apps import InstalledAppsMixin
 
-class Base(AppsConfiguration,Configuration):
+class Base(InstalledAppsMixin,Configuration):
     INSTALLED_APPS_FILE = 'apps.txt'
     INSTALLED_APPS_DISCOVER = True
 ```
