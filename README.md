@@ -15,6 +15,7 @@ $ [sudo] pip install django-configurations-installed-apps
 #### Features
 key  | default value  | env
 -|-|-
+`INSTALLED_APPS` | `[]` | `DJANGO_INSTALLED_APPS`
 `INSTALLED_APPS_FILE` | `None` | `DJANGO_INSTALLED_APPS_FILE`
 `INSTALLED_APPS_FILES` | `[]` | `DJANGO_INSTALLED_APPS_FILES`
 `INSTALLED_APPS_DISCOVER` | `True` | `DJANGO_INSTALLED_APPS_DISCOVER`  ('yes', 'y', 'true', '1')

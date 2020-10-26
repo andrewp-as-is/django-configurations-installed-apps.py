@@ -11,6 +11,7 @@ def getlines(path):
 
 
 class InstalledAppsMixin:
+    INSTALLED_APPS = values.ListValue([])
     INSTALLED_APPS_FILE = values.Value(None)
     INSTALLED_APPS_FILES = values.ListValue([])
     INSTALLED_APPS_DISCOVER = values.Value(True)
